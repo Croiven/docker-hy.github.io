@@ -1,9 +1,8 @@
 
 name: docker-heroku
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
+  
 jobs:
   deploy-docker-heroku:
     runs-on: ubuntu-latest
